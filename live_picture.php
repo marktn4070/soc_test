@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <form action="upload.php" method="post">
+        <input type="file" name="file">
+        <button type="submit" name="submit">upload</button>
+</form>
 </body>
 </html>
